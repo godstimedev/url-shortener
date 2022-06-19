@@ -1,5 +1,6 @@
 import React from "react";
 import Booster from "./components/Booster";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Shortener from "./components/Shortener";
@@ -13,6 +14,7 @@ function App() {
       <Shortener />
       <Stats />
       <Booster />
+      <Footer />
     </div>
   );
 }

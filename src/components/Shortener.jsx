@@ -3,7 +3,7 @@ import bgImg from "../assets/bg-shorten-desktop.svg";
 
 function Shortener() {
   return (
-    <div className="w-full absolute lg:top-[99%] md:top-[125%] sm:top-[120%] top-[110%] px-4">
+    <div className="w-full absolute lg:top-[92%] md:top-[125%] sm:top-[120%] top-[110%] px-4">
       <div
         className=" px-4 max-w-[1040px] mx-auto md:h-[6rem] h-[10rem]  bg-[#3b3054] rounded-md"
         style={{ backgroundImage: `url(${bgImg})` }}
