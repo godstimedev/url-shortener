@@ -31,7 +31,7 @@ function Navbar() {
           <button className="py-2 px-5 rounded-3xl text-[#9e9aa7] hover:text-[#232127] cursor-pointer">
             Login
           </button>
-          <button className="py-2 px-5 rounded-3xl ml-4 bg-[#2acfcf] hover:bg-[#87e9e9] text-white">
+          <button className="py-2 px-5 rounded-3xl ml-4 bg-[#2acfcf] hover:bg-opacity-50 text-white">
             Sign Up
           </button>
         </div>
@@ -56,7 +56,7 @@ function Navbar() {
             <button className="py-2 px-5 rounded-3xl mt-2">Login</button>
           </ul>
           <div className="flex-col justify-center items-center pb-8 max-w-80%">
-            <button className="py-2 px-5 w-[75%] rounded-3xl ml-4 bg-[#2acfcf] text-white">
+            <button className="py-2 px-5 w-[75%] rounded-3xl ml-4 bg-[#2acfcf] hover:bg-opacity-50 text-white">
               Sign Up
             </button>
           </div>

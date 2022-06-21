@@ -5,7 +5,7 @@ import Fully from "../assets/icon-fully-customizable.svg";
 
 function Stats() {
   return (
-    <div className="w-full h-full bg-[#ebeaea] py-[6rem]">
+    <div className="w-full h-full bg-[#ebeaea] py-[6rem] mt-[4rem] md:mt-0">
       <div className="max-w-[1240px] mx-auto pt-[1rem]">
         <div className="text-center py-[6rem] md:py-[4rem] md:max-w-[47%] max-w-[75%]  mx-auto">
           <h2 className="text-4xl py-4 text-[#232127]">Advanced Statistics</h2>
