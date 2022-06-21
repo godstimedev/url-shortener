@@ -31,7 +31,7 @@ function Stats() {
             </div>
           </div>
 
-          <div className="py-16 px-10 bg-white rounded-lg">
+          <div className="before:absolute sm:before:left-[50%] sm:before:top-[26.3%] sm:before:w-[7px] sm:before:h-[27px]  md:before:right-[65.69%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
             <div className="flex flex-col px-6 md:text-left md:items-start text-center items-center">
               <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[29%]">
                 <img src={Detailed} alt="/" />
@@ -44,7 +44,7 @@ function Stats() {
               </p>
             </div>
           </div>
-          <div className="py-16 px-10 bg-white rounded-lg">
+          <div className="before:absolute sm:before:left-[50%] sm:before:top-[62.3%] sm:before:w-[7px] sm:before:h-[27px] md:before:right-[32.9%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
             <div className="flex flex-col px-6 md:text-left md:items-start text-center items-center">
               <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[65%] ">
                 <img src={Fully} alt="/" />

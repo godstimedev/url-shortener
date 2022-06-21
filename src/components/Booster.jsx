@@ -9,7 +9,7 @@ function Booster() {
     >
       <div className="text-white text-center">
         <h2 className="text-3xl py-4 ">Boost your links today</h2>
-        <button className="py-2 px-5 rounded-3xl bg-[#2acfcf] hover:bg-[#87e9e9] text-white">
+        <button className="py-2 px-5 rounded-3xl bg-[#2acfcf] hover:bg-opacity-50 text-white">
           Get Started
         </button>
       </div>
