@@ -5,7 +5,7 @@ import Fully from "../assets/icon-fully-customizable.svg";
 
 function Stats() {
   return (
-    <div className="w-full h-full bg-[#ebeaea] py-[6rem] mt-[4rem] md:mt-0">
+    <div className="w-full h-full bg-[#ebeaea] py-[6rem] ">
       <div className="max-w-[1240px] mx-auto pt-[1rem]">
         <div className="text-center py-[6rem] md:py-[4rem] md:max-w-[47%] max-w-[75%]  mx-auto">
           <h2 className="text-4xl py-4 text-[#232127]">Advanced Statistics</h2>
@@ -31,9 +31,9 @@ function Stats() {
             </div>
           </div>
 
-          <div className="before:absolute sm:before:left-[50%] sm:before:top-[26.3%] sm:before:w-[7px] sm:before:h-[27px]  md:before:right-[65.69%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
+          <div className="before:absolute sm:before:left-[50%] sm:before:top-[26.1%] sm:before:w-[7px] sm:before:h-[27px]  md:before:right-[65.69%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
             <div className="flex flex-col px-6 md:text-left md:items-start text-center items-center">
-              <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[29%]">
+              <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[28.5%]">
                 <img src={Detailed} alt="/" />
               </div>
               <h3 className="text-2xl py-4 text-[#232127]">Detailed Records</h3>
@@ -44,9 +44,9 @@ function Stats() {
               </p>
             </div>
           </div>
-          <div className="before:absolute sm:before:left-[50%] sm:before:top-[62.3%] sm:before:w-[7px] sm:before:h-[27px] md:before:right-[32.9%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
+          <div className="before:absolute sm:before:left-[50%] sm:before:top-[63.4%] sm:before:w-[7px] sm:before:h-[27px] md:before:right-[32.9%] md:before:top-[50%] before:bg-[#2acfcf] md:before:h-[7px] md:before:w-[16px] py-16 px-10 bg-white rounded-lg">
             <div className="flex flex-col px-6 md:text-left md:items-start text-center items-center">
-              <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[65%] ">
+              <div className="w-[80px] h-[80px] rounded-full bg-[#3b3054] p-5 absolute md:top-[-2.5rem] top-[66%] ">
                 <img src={Fully} alt="/" />
               </div>
               <h3 className="text-2xl py-4 text-[#232127]">
