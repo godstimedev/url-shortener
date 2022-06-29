@@ -47,7 +47,7 @@ function Shortener() {
   }, [links]);
 
   return (
-    <div className="w-full absolute lg:top-[97vh] md:top-[97vh] sm:top-[97vh] top-[97vh] px-4">
+    <div className="w-full absolute lg:top-[91%] md:top-[91%] sm:top-[91%] top-[97vh] px-4">
       <div
         className=" px-4 max-w-[1040px] mx-auto md:h-[6rem] h-[10rem]  bg-[#3b3054] rounded-md"
         style={{ backgroundImage: `url(${bgImg})` }}

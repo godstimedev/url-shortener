@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Shortener />
+
       <Stats />
       <Booster />
       <Footer />

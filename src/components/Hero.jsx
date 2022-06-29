@@ -1,9 +1,10 @@
 import React from "react";
+import Shortener from "./Shortener";
 import HeroImg from "../assets/illustration-working.svg";
 
 function Hero() {
   return (
-    <div className="w-full h-[90vh] border-b pb-[8rem]">
+    <div className="w-full relative max-h-[90vh] border-b pb-[8rem]">
       <div className="max-w-[1240px] px-4 mx-auto grid lg:grid-cols-2 ">
         <img src={HeroImg} alt="/" className="lg:absolute lg:right-0" />
         <div className=" flex-col lg:justify-center lg:text-start justify-center text-center items-center lg:max-w-[60%] lg:my-[6rem]">
@@ -19,6 +20,7 @@ function Hero() {
           </button>
         </div>
       </div>
+      <Shortener />
     </div>
   );
 }

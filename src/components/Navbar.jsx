@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full h-24 static">
+    <div className="w-full h-24 static z-10">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center  h-full">
         <div className="flex justify-between">
           <img src={Logo} alt="/" className="mr-10" />
@@ -45,7 +45,7 @@ function Navbar() {
         <div
           className={
             nav
-              ? "w-full max-w-[90%] mx-auto bg-[#3b3054] text-white absolute top-[96px]  left-[1.5rem] right-[auto]   justify-center text-center rounded-lg"
+              ? "w-full max-w-[90%] mx-auto bg-[#3b3054] text-white absolute top-[96px]  left-[1.5rem] right-[auto]   justify-center text-center rounded-lg z-10"
               : "absolute top-[-100%]"
           }
         >
